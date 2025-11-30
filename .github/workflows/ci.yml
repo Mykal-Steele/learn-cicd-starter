@@ -21,4 +21,4 @@ jobs:
       - name: Echo Go Version
         run: go version
       - name: Run Tests
-        run: go test ./...
+        run: go test ./... -cover
